@@ -1,4 +1,4 @@
-# GraphMapper
+# PathFinder
 
 A cybersecurity-focused DSA project that models a computer network as a **directed weighted graph** to simulate and analyze real-world attack paths between systems.
 
@@ -8,9 +8,9 @@ A cybersecurity-focused DSA project that models a computer network as a **direct
 
 ## Project Overview
 
-GraphMapper represents an entire computer network as a graph of relationships. **Hosts, users, services, and vulnerabilities become nodes.** Trust relationships, admin rights, credential reuse, and active sessions become weighted edges.
+PathFinder represents an entire computer network as a graph of relationships. **Hosts, users, services, and vulnerabilities become nodes.** Trust relationships, admin rights, credential reuse, and active sessions become weighted edges.
 
-Given an attacker's entry point and a high-value target, GraphMapper finds every possible attack path — and ranks them by how easy they are to exploit.
+Given an attacker's entry point and a high-value target, PathFinder finds every possible attack path — and ranks them by how easy they are to exploit.
 
 This is **not** an exploitation or hacking tool. It is a simulation and analysis engine built entirely on custom-implemented data structures and graph algorithms — no libraries, no shortcuts.
 
@@ -32,7 +32,7 @@ Total Cost: 8  |  Hops: 4  |  Found by: Dijkstra's Algorithm
 
 ## Core Data Structures (Built from Scratch)
 
-| Structure | Role in GraphMapper |
+| Structure | Role in PathFinder |
 |-----------|-------------------|
 | **Hash Table** | O(1) node lookup by ID — no linear searching |
 | **Graph (Adjacency List)** | Core network map — each node stores its outgoing edges |
@@ -112,7 +112,7 @@ Network data is loaded from a **JSON file — not hardcoded.** Swap the file, ge
 ## Project Structure
 
 ```
-GraphMapper/
+PathFinder/
 ├── src/
 │   ├── data_structures/   # HashTable, Graph, Queue, Stack, MinHeap
 │   ├── algorithms/        # BFS, DFS, Dijkstra
@@ -199,10 +199,9 @@ GitHub: [@Sheraz-Ali403](https://github.com/Sheraz-Ali403)
 
 ---
 
-
 ## Not a Hacking Tool
 
-GraphMapper is an **analysis and simulation tool only.** It operates on static JSON data you define. It performs no live network scanning, no exploitation, and no unauthorized access of any kind.
+PathFinder is an **analysis and simulation tool only.** It operates on static JSON data you define. It performs no live network scanning, no exploitation, and no unauthorized access of any kind.
 
 ---
 
