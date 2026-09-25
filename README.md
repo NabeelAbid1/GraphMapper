@@ -189,6 +189,17 @@ GraphMapper/
 
 ---
 
+## Author
+
+**Nabeel Abid**  
+GitHub:[@NabeelAbid1](https://github.com/NabeelAbid1)
+
+**Sheraz Ali**  
+GitHub: [@Sheraz-Ali403](https://github.com/Sheraz-Ali403)
+
+---
+
+
 ## Not a Hacking Tool
 
 GraphMapper is an **analysis and simulation tool only.** It operates on static JSON data you define. It performs no live network scanning, no exploitation, and no unauthorized access of any kind.
